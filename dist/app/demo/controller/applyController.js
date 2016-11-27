@@ -1,0 +1,2 @@
+define(["PAWAAll"],function(e){return e.PAWAController.extend({module:"demo",name:"apply",init:function(e){console.log("applyController init.")},actions:{"":"doIndex",index:"doIndex",applyInfo:"applyInfo"},doIndex:function(){var e=this;require(["demoView/indexView","demoModel/demoModel"],function(o,n){wrapView.setBody(o,{model:new n,controller:e})})},applyInfo:function(){var e=this;require(["demoView/applyInfoView","demoModel/demoModel"],function(o,n){wrapView.setBody(o,{model:new n,controller:e})})}})});
+//# sourceMappingURL=applyController.js.map

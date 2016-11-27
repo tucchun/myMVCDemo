@@ -1,0 +1,2 @@
+define(["PAWA"],function(e){var t=e.request={_parameters:{},clear:function(){_.isEmpty(this._parameters)||(this._parameters={})},param:function(){var e=arguments,t=e.length;switch(t){case 1:if("string"==typeof e[0])return _.clone(this._parameters[e[0]]);_.isObject(e[0])&&_.extend(this._parameters,e[0]);break;case 2:if("string"==typeof e[0])return this._parameters[e[0]]=e[1];_.isObject(e[0])&&_.extend(this._parameters,e[0])}return _.clone(this._parameters)}};return t});
+//# sourceMappingURL=PAWARequest.js.map
